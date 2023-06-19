@@ -3,13 +3,14 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: {
-    bundle: path.resolve(__dirname, 'src/index.js'),
-  },
+  entry: './src/index.js',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -18,8 +19,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Leaderboard',
-      filename: 'index.html',
-      template: path.resolve(__dirname, 'src/template.html'),
+      template: './src/template.html',
     }),
   ],
   module: {
