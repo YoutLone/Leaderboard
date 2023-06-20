@@ -65,6 +65,10 @@ button {
   box-shadow: 3px 5px 2px rgb(26, 25, 25);
 }
 
+button:hover {
+  background-color: #0a84f7;
+}
+
 ul {
   border: none;
 }
@@ -76,16 +80,18 @@ ul li {
   border-radius: 3px;
   padding-bottom: 5px;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul li:nth-child(even) {
-  background: transparent;
+  background: rgb(92, 93, 95);
   color: white;
   padding-left: 10px;
 }
 
 ul li:nth-child(odd) {
-  background: #fff;
+  background: #f7e7e7;
   padding-left: 10px;
 }
 
@@ -112,4 +118,19 @@ form input[type='number'] {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+}
+
+.player-display {
+  order: 1;
+  padding-top: 4px;
+}
+
+.score-display {
+  order: 2;
+  background-color: #41545c;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 500;
 }
