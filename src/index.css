@@ -14,7 +14,7 @@ header {
   min-height: 15vh;
   display: flex;
   align-items: center;
-  background: rgba(3, 59, 82, 0.15);
+  background: rgba(3, 59, 80, 0.15);
   box-shadow: 0 8px 32px 0 rgba(63, 75, 85, 0.37);
   backdrop-filter: blur(3px);
   border-radius: 10px;
@@ -154,7 +154,7 @@ footer {
   min-height: 10vh;
   display: flex;
   align-items: center;
-  background: rgba(3, 59, 82, 0.15);
+  background: rgba(3, 59, 80, 0.15);
   box-shadow: 0 8px 32px 0 rgba(63, 75, 85, 0.37);
   backdrop-filter: blur(3px);
   border-radius: 10px;
