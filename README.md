@@ -7,7 +7,7 @@
 
 </div>
 
-<img src="./src/assets/learderboard.png" alt="leaderboard-image" />
+<img width="854" src="https://github.com/YoutLone/Leaderboard/blob/final-touch/src/assets/leaderboard.png" alt="leaderboard-image" />
 
 <!-- TABLE OF CONTENTS -->
 
