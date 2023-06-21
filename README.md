@@ -7,6 +7,8 @@
 
 </div>
 
+<img src="../src/assets/learderboard.png" alt="leaderboard-image" />
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -97,9 +99,9 @@ npm run build
 
 👤 **Than Myo Htet**
 
--GitHub: [@githubhandle](https://github.com/YoutLone)
--LinkedIn: [LinkedIn](https://linkedin.com/in/than-myo-htet-618b2524b)
--Twitter: [https://twitter.com/ThanMyoHte64860](https://twitter.com/ThanMyoHte64860)
+-[GitHub](https://github.com/YoutLone)
+-[LinkedIn](https://linkedin.com/in/than-myo-htet-618b2524b)
+-[Twitter](https://twitter.com/ThanMyoHte64860)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

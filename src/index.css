@@ -10,6 +10,20 @@
   list-style: none;
 }
 
+header {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  background: rgba(3, 59, 82, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(63, 75, 85, 0.37);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(24, 15, 71, 0.18);
+  padding-left: 10px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
 body {
   background-color: #bff0edd8;
   font-family: 'Poppins', sans-serif;
@@ -43,7 +57,8 @@ body {
 }
 
 h1 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 10px;
   font-size: 40px;
   color: #333232;
 }
@@ -133,4 +148,19 @@ form input[type='number'] {
   border-radius: 15px;
   color: #fff;
   font-weight: 500;
+}
+
+footer {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  background: rgba(3, 59, 82, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(63, 75, 85, 0.37);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(24, 15, 71, 0.18);
+  padding-left: 10px;
+  width: auto;
+  margin-top: 130px;
+  margin-bottom: 10px;
 }
